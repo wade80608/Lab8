@@ -14,7 +14,7 @@ public class MyService extends Service {
                 try{
                     Thread.sleep(5000);
 
-                    Intent intent = new Intent(MyService.this,MainActivity.class);
+                    Intent intent = new Intent(MyService.this,MainActivity2.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     MyService.this.startActivity(intent);
                 }catch (InterruptedException e) {
